@@ -9,5 +9,6 @@ public class Main {
         System.out.println("-------------------------------------------------------");
         VerifierNombre.verifierNombre();
         System.out.println("-------------------------------------------------------");
+        JusteNombre.justeNombre();
     }
 }
