@@ -1,5 +1,7 @@
+import java.io.IOException;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         System.out.println("Renverser chaine : " + RenverserChaine.renverserChaine());
         System.out.println("-------------------------------------------------------");
         System.out.println("Afficher pyramide : ");
@@ -16,5 +18,8 @@ public class Main {
         EnregistrerFichier.enregistrerFichier();
         System.out.println("-------------------------------------------------------");
         CompterMotsFichier.compterMotsFichier();
+        System.out.println("-------------------------------------------------------");
+        Carre rectangle = new Carre(3,5);
+        rectangle.afficherRectangle();
     }
 }
