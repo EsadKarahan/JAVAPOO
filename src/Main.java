@@ -10,5 +10,11 @@ public class Main {
         VerifierNombre.verifierNombre();
         System.out.println("-------------------------------------------------------");
         JusteNombre.justeNombre();
+        System.out.println("-------------------------------------------------------");
+        CompterNombreMots.compterNombreMots();
+        System.out.println("-------------------------------------------------------");
+        EnregistrerFichier.enregistrerFichier();
+        System.out.println("-------------------------------------------------------");
+        CompterMotsFichier.compterMotsFichier();
     }
 }
